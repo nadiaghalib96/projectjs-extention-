@@ -1,0 +1,23 @@
+{
+    "name": "Bookmark",
+    "version": "1.0.0",
+    "description": "bookmark team  app",
+    "manifest_version": 3,
+    "author": "Ramez , Nadia , Radwa",
+    "permissions": [
+        "storage"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_icon": {
+            "16": "img/ch.webp",
+            "24": "images/icon24.png",
+            "32": "images/icon32.png"
+        },
+        "default_popup": "index.html",
+        "default_title": "Latest bookmark"
+    }
+
+}
